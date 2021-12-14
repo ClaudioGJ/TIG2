@@ -110,7 +110,7 @@ void ListaTurnos (Usuario Pro) {
 				
 				if (Dato.DNI == DatoCli.DNI) {
 					
-					printf("[Apellido y Nombre] => %s\n\n", DatoCli.ApeNom);
+					printf("[Apellido y Nombre] => %s    ---    [DNI] => %d\n\n", DatoCli.ApeNom, DatoCli.DNI);
 					
 				}
 				
